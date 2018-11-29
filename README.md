@@ -3,6 +3,18 @@
 pow-mongodb-fixtures
 =================
 
+Fork
+------------------------
+
+This is a forked version of pow-mongodb-fixtures. 
+
+Changes:
+
+- nodeunit updated to version `^0.11.3`.
+
+Basics
+------------------------
+
 Simple fixture loader for MongoDB on NodeJS.  Makes managing relationships between documents easier.
 
 Fixtures can be in one file, or divided up into separate files for organisation 
