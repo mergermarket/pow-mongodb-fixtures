@@ -3,15 +3,11 @@
   "name": "pow-mongodb-fixtures",
   "description": "Easy JSON fixture loading for MongoDB.  Makes managing document relationships easier.",
   "version": "0.14.0",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/powmedia/pow-mongodb-fixtures.git"
-  },
   "bin": {
     "mongofixtures": "./bin/mongofixtures"
   },
-  "engines": {
-    "node": ">= 0.4.1"
+  "publishConfig": {
+    "registry": "http://mmrepo.jfrog.io/mmrepo/api/npm/npm-local"
   },
   "dependencies": {
     "async": "0.1.15",
@@ -23,7 +19,7 @@
   "devDependencies": {
     "nodeunit": "^0.11.3"
   },
-  "main": "src/index",
+  "main": "src/index.js",
   "scripts": {
     "test": "node_modules/.bin/nodeunit test"
   }
