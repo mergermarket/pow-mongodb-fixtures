@@ -8,6 +8,14 @@ pipeline {
     }
 
     stages {
+        stage("Write npm config") {
+            steps {
+                ansiColor("xterm") {
+                    writeNpmConfig()
+                }
+             }
+         }
+
         stage("Check if should publish") {
             steps {
                 ansiColor("xterm") {
