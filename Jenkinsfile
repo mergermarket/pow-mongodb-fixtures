@@ -8,15 +8,6 @@ pipeline {
     }
 
     stages {
-        stage("Test") {
-            steps {
-                ansiColor("xterm") {
-                    writeNpmConfig()
-                    sh "./scripts/run-unit-tests.sh"
-                }
-            }
-        }
-
         stage("Check if should publish") {
             steps {
                 ansiColor("xterm") {

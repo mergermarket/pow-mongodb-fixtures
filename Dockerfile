@@ -4,4 +4,3 @@ WORKDIR /usr/src/app
 COPY package.json package-lock.json .npmrc ./
 RUN npm ci
 ADD . .
-CMD npm test
