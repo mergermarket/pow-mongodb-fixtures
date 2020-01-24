@@ -1,4 +1,4 @@
-def projectName = "@mergermarket/pow-mongodb-fixtures"
+def projectName = "pow-mongodb-fixtures"
 
 pipeline {
     agent {
