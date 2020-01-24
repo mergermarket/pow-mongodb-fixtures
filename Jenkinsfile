@@ -16,6 +16,14 @@ pipeline {
              }
          }
 
+        stage("Build") {
+            steps {
+                ansiColor("xterm") {
+                    sh "./scripts/build-in-docker.sh $projectName"
+                }
+             }
+        }
+
         stage("Check if should publish") {
             steps {
                 ansiColor("xterm") {
