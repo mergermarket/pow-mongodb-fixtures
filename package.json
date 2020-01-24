@@ -1,13 +1,10 @@
 {
-  "author": "Charles Davison <charlie@powmedia.co.uk>, Team Pierogi",
-  "name": "@acuris/pow-mongodb-fixtures",
+  "author": "DevTeam-Pierogi",
+  "name": "@mergermarket/pow-mongodb-fixtures",
   "description": "Easy JSON fixture loading for MongoDB.  Makes managing document relationships easier.",
   "version": "0.15.1",
   "bin": {
     "mongofixtures": "./bin/mongofixtures"
-  },
-  "publishConfig": {
-    "registry": "http://mmrepo.jfrog.io/mmrepo/api/npm/npm-local"
   },
   "dependencies": {
     "async": "0.1.15",
