@@ -19,7 +19,7 @@ pipeline {
         stage("Publish") {
             steps {
                 ansiColor("xterm") {
-                    sh "[ \"true\" == \"\$(cat should-publish.txt)\" ] && docker run $projectName npm --verbose publish || echo Not publishing because should not publish"
+                    sh "docker run $projectName npm --verbose publish || echo Not publishing because should not publish"
                 }
             }
         }
