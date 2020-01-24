@@ -2,5 +2,5 @@
 
 set -e
 
-docker build -t equities-reference-data .
-docker run equities-reference-data
+docker build -t pow-mongodb-fixtures .
+docker run pow-mongodb-fixtures
