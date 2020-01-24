@@ -1,6 +1,6 @@
 {
   "author": "DevTeam-Pierogi",
-  "name": "@mergermarket/pow-mongodb-fixtures",
+  "name": "@acuris/pow-mongodb-fixtures",
   "description": "Easy JSON fixture loading for MongoDB.  Makes managing document relationships easier.",
   "version": "0.15.1",
   "bin": {
