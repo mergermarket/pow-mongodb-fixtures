@@ -1,0 +1,9 @@
+node_modules
+package
+scripts
+test
+.npmrc
+.nvmrc
+.travis.yml
+Dockerfile
+Jenkinsfile
