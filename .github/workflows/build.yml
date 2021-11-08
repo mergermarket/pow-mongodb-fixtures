@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: ["6.9","4.2","0.12","0.10","iojs"]
+        node-version: ["6.9"] #,"4.2","0.12","0.10","iojs"]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
